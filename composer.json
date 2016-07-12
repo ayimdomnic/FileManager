@@ -1,0 +1,45 @@
+{
+  "name": "ayimdomnic/media-manager",
+  "description": "Manage media file relationships with your objects",
+  "keywords": [
+    "mediamanager",
+    "media"
+  ],
+  "homepage": "https://github.com/ayimdomnic/medialibrary",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ayim Domnic",
+      "email": "ayimdomnic@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php" : "^7.0",
+    "illuminate/bus": "~5.1.16|~5.2.0",
+    "illuminate/console": "~5.1.16|~5.2.0",
+    "illuminate/database": "~5.1.16|~5.2.0",
+    "illuminate/support": "~5.1.16|~5.2.0",
+    "Ayim/laravel-glide": "^3.0.0",
+    "Ayim/pdf-to-image": "^1.0.1",
+    "Ayim/string": "^2.0.0"
+
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "^5.0.0",
+    "mockery/mockery": "^0.9.4",
+    "scrutinizer/ocular": "^1.1",
+    "orchestra/testbench": "^3.0",
+    "doctrine/dbal": "^2.5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ayim\\MediaLibrary\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Ayim\\MediaLibrary\\Test\\": "tests"
+    }
+  }
+}
