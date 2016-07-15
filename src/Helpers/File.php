@@ -42,4 +42,13 @@ class File
 
         return $finfo->file($path);
     }
+    
+    public static function getMimeForm(string $path) : string
+    {
+        $finfo = new Finfo(FILEINFO_MIME_TYPE);
+        
+        return $finfo->file($path);
+    }
+    
+    //more mime attribbutes to be done 
 }
