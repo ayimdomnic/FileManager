@@ -20,9 +20,9 @@
     "illuminate/console": "~5.1.16|~5.2.0",
     "illuminate/database": "~5.1.16|~5.2.0",
     "illuminate/support": "~5.1.16|~5.2.0",
-    "Ayim/laravel-glide": "^3.0.0",
-    "Ayim/pdf-to-image": "^1.0.1",
-    "Ayim/string": "^2.0.0"
+    "spatie/laravel-glide": "^3.0.0",
+    "spatie/pdf-to-image": "^1.0.1",
+    "spatie/string": "^2.0.0"
 
   },
   "require-dev": {
