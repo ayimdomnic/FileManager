@@ -13,8 +13,8 @@ Add the service provider to the `config\app.php`
 
 ``` providers => [
             'Ayim\MediaLibrary\MediaLibraryServiceProvider::class',
-    ];
-```
+    ];```
+
     
 
 ## COMMING SOONISH 
@@ -30,8 +30,7 @@ I need someone to help comment on the code
 ## DOCUMENTATION
 
 ##SNIPETS
-```
-<?php
+```<?php
 
 namespace Ayim\MediaLibrary;
 
@@ -65,7 +64,7 @@ trait SortableTrait
     }
 
     /**
-     * This function reorders the records: the record with the first id in the array
+     * This function reorders the records: the record with the first id in thearray
      * will get order 1, the record with the second it will get order 2, ...
      *
      * A starting order number can be optionally supplied (defaults to 1).
@@ -102,5 +101,4 @@ trait SortableTrait
     {
         return $this->sortable['sort_when_creating'] ?? true;
     }
-}
-```
+}```
