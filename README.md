@@ -12,7 +12,7 @@ This is a simple package to assist with Your Media and Objects Relations while d
 Add the service provider to the `config\app.php`
 
 ``` providers => [
-            'Ayim\MediaLibrary\MediaLibraryServiceProvider::class';
+            'Ayim\MediaLibrary\MediaLibraryServiceProvider::class',
     ];
 ```
 ## COMMING SOONISH 
