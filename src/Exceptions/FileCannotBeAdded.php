@@ -8,11 +8,12 @@ use Ayim\MediaLibrary\Helpers\File;
 
 class FileCannotBeAdded extends Exception
 {
+    //unknowtype exception
     public static function unknownType()
     {
         return new static('Only strings, FileObjects and UploadedFileObjects can be imported');
     }
-
+    //Large file sizes Richard Hendricks should make the compression Algorithm opensource
     public static function fileIsTooBig(string $path)
     {
         $fileSize = File::getHumanReadableSize(filesize($path));
@@ -21,17 +22,17 @@ class FileCannotBeAdded extends Exception
 
         return new static("File `{$path}` has a size of {$fileSize} which is greater than the maximum allowed {$maxFileSize}");
     }
-
+    //filedoen't exit
     public static function fileDoesNotExist(string $path)
     {
         return new static("File `{$path}` does not exist");
     }
-
+    //unreachable Url
     public static function unreachableUrl(string $url)
     {
         return new static("Url `{$url}` cannot be reached");
     }
-
+    //wrong location ..oops! filesystem disks
     public static function diskDoesNotExist(string $diskName)
     {
         return new static("There is no filesystem disk named `{$diskName}`");
