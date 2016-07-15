@@ -31,4 +31,14 @@ class MediaObserver
     {
         app(Filesystem::class)->removeFiles($media);
     }
+    
+    public function callBack(Media $media)
+    {
+        app(Filesystem::class)->callBack($media);
+    }
+    
+    public function getMetaData()
+    {
+        //this would help with SEO
+    }
 }
