@@ -11,9 +11,19 @@ This is a simple package to assist with Your Media and Objects Relations while d
 
 Add the service provider to the `config\app.php`
 
-``` providers => [
+` providers => [
             'Ayim\MediaLibrary\MediaLibraryServiceProvider::class',
-    ];
-```
+    ];`
+    
+
 ## COMMING SOONISH 
  
+-I need someone to help comment on the code 
+
+## USAGE
+
+
+## CREDITS
+
+
+## DOCUMENTATION
