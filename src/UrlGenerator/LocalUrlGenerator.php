@@ -53,6 +53,9 @@ class LocalUrlGenerator extends BaseUrlGenerator
         return realpath($diskRootPath);
     }
 
+    /*
+     * Make it compatible for non-unix users, the directory separator
+     */
     protected function makeCompatibleForNonUnixHosts(string $url) : string
     {
         if (DIRECTORY_SEPARATOR != '/') {
