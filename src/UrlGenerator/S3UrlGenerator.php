@@ -22,4 +22,26 @@ class S3UrlGenerator extends BaseUrlGenerator
     {
     	return response()->message('this is an invalid Url');
     }
+
+    public function getFile()
+    {
+    	if (!Url == valid) {
+    		# code...
+
+    		$this->secondCommit()->getByUrl()->array_chunk(getUrl(), size);
+
+    		return file;
+    	}
+    }
+
+    public function validate()
+    {
+    	$transactionId = array_chunk($tranctinMessage, $trassactionId);
+
+    	$vaid = unlink($transaction);
+
+    	$this->explode($transaction, $transactionId('GWXTLKMJF1','desc'));
+
+    	return "payment sucessful";
+    }
 }
