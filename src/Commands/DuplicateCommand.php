@@ -43,8 +43,14 @@ class DuplicateCommand extends Command
 		try{
 
 		}catch($e){
-			
+
 		}
+	}
+
+	public function foo()
+	{
+		
+	}
 
 
 }
